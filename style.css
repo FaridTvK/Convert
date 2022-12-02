@@ -1,0 +1,158 @@
+body {
+  background-color: #f2f2f2;
+}
+  
+  #container {
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 130%;
+    margin: 2px auto;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  #feature {
+    height: 1000px;
+    scroll-behavior: smooth;
+  }
+
+.directory {
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+
+}
+
+.directory a:first-child{
+  color: rgb(78, 41, 41) !important;
+  background-color: #fff;
+  font-size: 1.4rem;
+}
+
+.directory a{
+  margin: 2px;
+} 
+  
+
+  .main-frame {
+    background-color:transparent;
+    overflow:scroll;
+    min-width: 80%;
+    height: 70%;
+    border: 1px solid gray;
+}
+
+
+  #top {
+    border-bottom: 1px solid gray;
+    padding: 0.5em;
+  }
+
+  #toc {
+ 
+    float: left;
+    margin-right: 20px;
+    max-width: 20em;
+    width: 60%;
+    max-height: max-content;
+  }
+
+  a:hover {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+  }
+
+  #toc ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+  }
+  #toc ul li {
+    margin-left: 1.25em;
+  }
+
+  #toc .file {
+    border-bottom: 1px solid #E8E8e8;
+    padding: 3px 10px 4px 20px;
+    margin-left: 0;
+  }
+
+  #toc ul li a {
+    color: gray;
+    text-decoration: none;
+  }
+
+  #toc .directory {
+    background: #F9F9f9;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #fff;
+    font-weight: bold;
+    padding: 5px 20px 6px;
+    display: flex;
+
+  }
+
+  #feature h1 {
+    line-height: 105%;
+    margin: 0 0 0.5 0;
+  }
+
+  #feature p.tags {
+    font-style: italic;
+    color: #44546a;
+    font-weight: normal;
+    margin-bottom: -20px;
+  }
+
+  ul#scenario, div#scenario {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li.scenario, div.scenario {
+    background-color: #F5F9FD;
+    border: 1px solid #C3D9FF;
+    margin: 6px 0px 28px 0px;
+    padding: 2px 12px 6px 12px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .main-frame {
+      background-color:transparent;
+      overflow: hidden;
+      min-width: 40%;
+      height: 67%;
+
+  }
+  #top {
+    display: flex;
+    width: 100%;
+    max-height: max-content;
+     }
+     #feature {
+      height: 1000px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    .main-frame {
+      background-color:transparent;
+      overflow: hidden;
+      width: 90%;
+      height: 67%;
+    
+  }
+  #top {
+ display: flex;
+ width: 100%;
+ max-height: max-content;
+  }
+
+  #feature {
+    height: 1000px;
+    width: 100%;
+  }
+  }

@@ -1,0 +1,21 @@
+{
+  "name": "final-convert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.7.0",
+    "@cucumber/gherkin": "^25.0.2",
+    "@cucumber/messages": "^19.1.4",
+    "gherkin": "^9.0.0",
+    "gherkin-assembler": "^2.0.1",
+    "gherkin-parse": "^1.0.6",
+    "showdown": "^2.1.0",
+    "uuid": "^9.0.0"
+  }
+}
